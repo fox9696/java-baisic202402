@@ -13,8 +13,8 @@ public class CastingExample2 {
          */
         
         int i = 72;
-        //char c = i;  *char가 int보다적어서 넣지못함
-        char c = (char) i;   //int 타입을 char로바꿔서 75가됨
+        //char c = i;  *cha r가 int 보다적어서 넣지못함
+        char c = (char) i;   //int 타입을 char 로바꿔서 H가됨
         System.out.println("c = " + c);
 
         

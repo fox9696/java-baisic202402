@@ -9,11 +9,11 @@ public class CastingExample1 {
          */
         
         byte b = 10;
-        int i = b;       // byte -> int로 암묵적 변환한 후 대입 연산 진행.
+        int i = b;       // byte -> int 로  변환한 후 대입 연산 진행.
         System.out.println("i = " + i);
         
         char c = '가';
-        int j = 'c';  //char -> int 로 변환 *char가 더 작기때문에 
+        int j = 'c';  //char -> int 로 변환 *char 가 더 작기때문에
         System.out.println("'가' = " + j);  //유니코드번호로 바뀌어서출력
         
         
