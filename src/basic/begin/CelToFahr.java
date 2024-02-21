@@ -17,7 +17,6 @@ public class CelToFahr {
 
 
 
-
         Scanner sc = new Scanner(System.in);
         System.out.print("온도를 입력하세요(℃): ");
         double cel = sc.nextDouble();
