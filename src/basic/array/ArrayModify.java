@@ -28,7 +28,7 @@ public class ArrayModify {
             }
         }
 
-        if(!flag) {
+        if(!flag) { // flag == false
             System.out.println("없는 음식입니다.");
         }
 
