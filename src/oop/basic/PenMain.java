@@ -1,4 +1,6 @@
-package oop;
+package oop.basic;
+
+import oop.basic.Pen;
 
 public class PenMain {
 
