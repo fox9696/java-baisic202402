@@ -47,14 +47,19 @@ public class MainClass {
 
         System.out.println("----------------------------------------");
 
+//        다른거출력하려고 잠깐주석처리 잘못쓴거아님 이게정답
+//        Car myTesla = kim.buyCar("테슬라");
+//        myTesla.run();
+//        Car mySonata = kim.buyCar("소나타");
+//        mySonata.run();
+//        Car myPorsche = kim.buyCar("포르쉐");
+//        myPorsche.run();
+
 
         Car myTesla = kim.buyCar("테슬라");
         myTesla.run();
-        Car mySonata = kim.buyCar("소나타");
-        mySonata.run();
-        Car myPorsche = kim.buyCar("포르쉐");
-        myPorsche.run();
-
+      //  myTesla.activeAutopilot();   //안되는이유 : Car 로 선언해서 기본적으로 부모 클래스는 자식클래스의 변경내용같은걸 전혀알수없기에
+                                    // tesla 에서 activeAutopilot 을 생성한지알수가없어서 이건 선언할수없음
 
 
 
