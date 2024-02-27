@@ -56,16 +56,21 @@ public class MainClass {
 //        myPorsche.run();
 
 
-        Car myTesla = kim.buyCar("테슬라");
+        Tesla myTesla = (Tesla)kim.buyCar("테슬라");
         myTesla.run();
+        myTesla.activeAutopilot();
       //  myTesla.activeAutopilot();   //안되는이유 : Car 로 선언해서 기본적으로 부모 클래스는 자식클래스의 변경내용같은걸 전혀알수없기에
                                     // tesla 에서 activeAutopilot 을 생성한지알수가없어서 이건 선언할수없음
 
+        // Tesla t = (Tesla) myTesla;   *이건 가능한문법
+      //  t.activeAutopilot();             *가능한문법
 
 
-
-
-
+        System.out.println("----------------------------");
+        CarShop shop = new CarShop();
+        shop.carPrice(s2);
+        shop.carPrice(t4);
+        shop.carPrice(p1);
 
 
 

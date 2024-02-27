@@ -26,7 +26,7 @@ public class MainClass {
 
         System.out.println("-------------------------------------------");
 
-        Warrior w1 = new Warrior();
+        Warrior w1 = new Warrior("전사짱짱맨");
         w1.characterInfo();
 
 

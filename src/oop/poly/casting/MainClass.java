@@ -52,5 +52,28 @@ public class MainClass {
           //객체가 2개 생성된 것이 아닌 하나의 객체의 접근방식을 두가지로 늘린겁니다 .
 
 
+        //Object 타입의 변수는 어떠한 객체든 담을수잇지만 , 객체 고유의 기능을사용하기위해서는
+        //형 변환이 거의항상필요합니다 -> Object 가 물려주는 메서드 자체가 별로 없음.
+        Object obj = new String("안녕하세요");  //Object 로 String 에 접근하면 기능을못씀(length 등등..)
+//        System.out.println("문자열의 길이 : " + obj.length());   (X) * Object 는 String 이 여러가지 기능을가지고있는걸모름
+        String str = (String) obj;  //이렇게써야함
+        System.out.println("문자열의 길이 :" + str.length());
+
+
+
+ // 다형성이 한번도 발생하지 않은 경우에는
+        // 강제 형 변환을 사용할수없습니다
+        parent ppp = new parent();
+     //   Child ccc = (Child)ppp ;   //이거 빨간줄은안뜨는데 오류뜸 *부모객체를 자식객체에 넣지는못함
+//        Child ccc = ppp ;   이건 형변환안해서 안됨
+
+
+
+
+
+
+
+
+
     }
 }
