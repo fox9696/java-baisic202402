@@ -1,4 +1,4 @@
-package video;
+package video.main;
 
 import video.common.AppService;
 import video.user.service.UserService;

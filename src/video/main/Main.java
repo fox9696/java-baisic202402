@@ -1,8 +1,5 @@
 package video.main;
 
-import video.AppController;
-import video.ui.AppUi;
-
 import static video.ui.AppUi.inputInteger;
 import static video.ui.AppUi.startScreen;
 
@@ -16,15 +13,7 @@ public class Main {
             int selectNumber = inputInteger(">>> ");
             controller.chooseSystem(selectNumber);
 
-
-
         }
-
-
-
-
-
-
 
 
 
